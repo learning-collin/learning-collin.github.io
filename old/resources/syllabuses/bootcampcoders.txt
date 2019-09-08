@@ -1,0 +1,74 @@
+Backend
+
+    MySQL & Data Design
+        Database Design
+        Data Description Language (DDL)
+        Object Manipulation Language (OML)
+        Query Optimization
+    PHP
+        Essential PHP syntax
+        Control Structures
+        Loops
+        Functions
+        Object oriented PHP
+        Cookies & Sessions
+        composer Package Manager
+        IPv6
+    Object Oriented
+        Basic Object Oriented Programming
+        Composition
+        Design Patterns
+        Inheritance
+        Unit Testing with PHPUnit
+        Big O Notation
+
+Frontend
+
+    HTML
+        HTML & the Document Object Model (DOM)
+        Bootstrap Framework
+    CSS
+        Essential CSS
+        CSS for Mobile First Development
+        CSS Box Model
+    UI/UX
+        User Experience Essentials
+        Web Design Essentials
+        User Interface Essentials
+    JavaScript
+        Essential JavaScript
+        JavaScript Events
+        Making API calls using Fetch
+        Debugging with Dev Tools
+    React & Node
+        npm Package Manager
+        React Architecture
+        Component Architecture
+        JSON APIs
+        RESTful Design Pattern
+        Webpack
+
+Security
+
+    Backend Security
+        PHP Type Declarations
+        Using filter_var to validate data
+        Hashing Passwords
+        Salting Passwords
+        Synchronizer Token Design Pattern
+        Encrypted Property Files
+        Regular Expressions
+        Session Security
+        JWT Tokens
+    Frontend Security
+        Form Validation
+        NEVER Trust the End User
+        Cookie Security
+        Information Leakage
+    Attacks & Defenses
+        Cross Site Request Forgery (CSRF/XSRF)
+        Cross Site Scripting (XSS)
+        SQL Injection
+        Shell Injection
+        Social Engineering
+

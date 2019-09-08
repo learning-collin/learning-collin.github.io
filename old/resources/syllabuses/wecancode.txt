@@ -1,0 +1,94 @@
+MODULE 1: Virtual Pet Week 1 - 4
+    Sprint 1    Intro to Program
+                Git and GitHub
+                Trello
+                Environment Setup
+                Agile/Scrum
+
+    Sprint 2
+                Node
+                Babel & Webpack
+                Unit Testing/TDD
+                Variables, 
+                Operators, 
+                Expressions, 
+                Basic Types
+                Conditionals
+                Strings and Text Processing
+
+    Sprint 3
+                Objects
+                Arrays
+                Classes/Modules
+
+    Sprint 4
+                Intro to the two pillars of JS: OOP & FP
+                APIE
+                
+    Sprint 5
+                Parent/Child relationships
+                Abstract Classes/Methods
+                
+    Sprint 6
+                Dependency Injection
+                Abstract Classes & Interfaces
+                
+    Sprint 7
+                Prepare Presentations
+                Demo projects
+                
+MODULE 2: Personal Portfolio Week 5
+    HTML
+    CSS Styling
+    CSS Flexbox
+    CSS Grid
+    Advanced CSS
+                
+MODULE 3: Reviews Week 6 - 8
+                
+    Sprint 1
+                Advanced NPM
+                Express
+                
+    Sprint 2
+                Test Doubles
+                Using Jest to Mock
+                
+                
+    Sprint 3
+                MVC
+                Templating Engines
+                
+    Sprint 4
+                Databases
+                NoSQL/SQL
+                
+    Sprint 5
+                Prepare Project Presentations
+                Demos
+                
+MODULE 4: Personal Portfolio 2 Week 9
+    JavaScript
+    JS Testing
+                
+MODULE 5: Student Choice Week 10 - 11
+                
+    Sprint 1
+                REST
+                API Construction/Usage
+                
+    Sprint 2
+                Single Page Applications (SPA)
+                
+    Sprint 3
+                Advanced JS
+                
+    Sprint 4
+                Frontend JS Frameworks
+                
+    Sprint 5
+                Prepare Project Presentations
+                Demo
+                
+MODULE 6: Final Projects Week 12 - 14
+    Final Projects

@@ -1,0 +1,230 @@
+Prep Courses
+
+The Prep Work is available completely free to anyone who would like to try it.
+Viking has the most comprehensive prep work in the world so it is NOT trivial!
+This work is required before you begin our core curriculum (regardless of
+whether you’re doing so via the Immersive Program or the Flex Program ), so
+it’s an invaluable resource both for getting your feet wet as a new developer
+and for preparing to enter one of the rigorous Viking programs.
+
+#######################################################
+#######################################################
+
+Basic Prep Work 
+Our Basic Prep starts with the very basics and covers a number of topics which
+are important for you to be a well-rounded engineer.
+
+Web Development Basics
+    ●Web Fundamentals
+    ●The Command Line
+    ●Using Git to Collaborate
+
+Web Design Basics
+    ●The Design Process
+    ●Introduction to Product Design
+    ●Introduction to User Experience (UX)
+    ●Elements of Visual Design
+    ●Building and Using Mockups
+
+Software Engineering Basics
+    ●Principles of Software Engineering
+    ●Agile Web Development
+    ●Pseudocoding
+    ●SOLID Design Principles
+
+#######################################################
+#######################################################
+
+Advanced Prep Work
+
+Our Advanced Prep gives you a comprehensive understanding of Markup (with HTML,
+CSS,SASS and Bootstrap), JavaScript and what you must do immediately to support
+your job search.This advanced work operates just like our core curriculum --
+you will build real projects fromscratch and solve real problems with code.
+
+Markup and Styling
+    ●HTML5
+    ●CSS3
+    ●Developer Tools
+    ●Debugging Markup
+    ●SASS preprocessing
+    ●Twitter Bootstrap
+JavaScript Programming Fundamentals
+    ●The Fundamentals of Code
+    ●Data Types, Flow Control, Looping
+    ●Intermediate JavaScript
+    ●Object-Oriented Programming
+    ●Functional Programming
+    ●`This`, Scope and Closures
+    ●Objects and Prototypes
+    ●jQuery Events and E
+Getting Hired I: Knowledge is Power
+    ●The Viking Method for Getting Hired
+    ●What Companies Want
+    ●Planning Your Strategy
+    ●Creating Your Vapor Trail
+    ●Building a Personal Website
+    ●Reaching Out to Developers
+
+#######################################################
+#######################################################
+
+Core Curriculum
+Our core curriculum is designed to take you from “advanced beginner” to
+employable full-stack engineer. That means we have a LOT of ground to cover
+(roughly 1200 hours of it!).The course is broken into the 4 key sections shown
+below: Databases, Back End, Front End and Hiring. To be truly full-stack, we
+expect that you will be employable as either a front-end developer or a
+back-end developer and we prepare you accordingly. This why our program covers
+more ground than any other.
+
+Databases
+Data is the core of every major web application and you have to be an effective
+engineer. During the Databases portion of the course,you will learn everything
+you need in order to break down a website into its core data model andthen
+implement that model yourself.
+
+Data Modeling
+    ●Data Relationships
+    ●Designing a Data Model
+    ●Relational Databases
+    ●Alternative Databases
+    ●Data Normalization
+    ●Entity Relationship Modeling (ERM)
+SQL
+    ●Working with Database Schemas
+    ●Create-Read-Update-Destroy (CRUD)
+    ●Joins
+    ●Aggregate Functions and Groups
+    ●Sub Queries
+NoSQL
+    ●Serialization
+    ●Modeling NoSQL data 
+    ●Document Databases (MongoDB)
+    ●NoSQL Best Practices
+
+
+#######################################################
+#######################################################
+
+Back End Engineering with JavaScript/Node 
+The Back End Engineering portion of our curriculum uses JavaScript as your
+window into the underlying structure of programming and the systems of the web.
+You learn how to interact with everything from files to web requests while also
+developing an appreciation for the strategy of developing robust web
+frameworks.
+
+NodeJS
+    ●Server-Side JavaScript
+    ●NPM
+    ●JavaScript Build Processes
+    ●Event Loop and Emitters
+    ●File System Interaction
+    ●Modules
+Express + APIs
+    ●HTTP in Depth
+    ●Calling APIs
+    ●Reading API documentation
+    ●Basic API Authentication
+    ●OAuth 2.0
+    ●API-Based Sign-In with SDKs
+    ●API-Based Sign-In with Omniauth
+    ●Uploading to Amazon S3
+    ●ExpressJS
+    ●Cookie and Session Persistence
+    ●Deploying JavaScript Applications
+Authentication and Security
+    ●Intro to Security and Authentication
+    ●Basic and Digest Authentication
+    ●Session-Based Authentication
+    ●Cookie-Based Authentication
+    ●JSON Web Tokens
+    ●Hacking Attack Vectors
+Testing
+    ●Overview of Software Testing
+    ●Unit Testing
+    ●Integration Testing
+    ●Factories
+    ●JavaScript Testing Frameworks
+
+#######################################################
+#######################################################
+
+Front End Engineering
+The Front End Engineering portion of the course uses the JavaScript language to
+carry you through designing modern dynamic web applications. You will learn
+everything from how to retrieve data using lightweight AJAX requests to
+constructing production-scale single-page apps using the ReactJS framework.The
+JavaScript Programming Fundamentals prep course is a prerequisite for this
+section
+
+React + Redux
+    ●AJAX
+    ●Overview of Frontend Frameworks
+    ●Frontend Data Modeling
+    ●Templating Frameworks
+    ●JSX
+    ●The React Environment
+    ●Components and State
+    ●Props
+    ●Routing
+    ●Redux
+    ●Webpack
+Frontend Design 
+    ●Frontend Data Modeling
+    ●Best Practices
+    ●Build Tools and Workflows
+Frontend Testing
+    ●Jest
+    ●Snapshot Testing
+    ●DOM Testing
+
+#######################################################
+#######################################################
+
+Getting Hired
+
+Getting yourself job-ready begins long before you’ve covered the full
+curriculum and that's why you began the journey in the Prep Work phase. Our
+core Hiring materials pick up where the prep work left off, preparing you for
+the active portion of the job search process. That means turning your vapor
+trail into real human connections, breaking through the phone screen, nailing
+the technical interview, and negotiating your job offers
+
+Part of your preparation to be a strong engineer and a strong technical
+interviewer is an in-depth coverage of data structures and algorithms. In this
+section, you will gain an in-depth understanding of these crucial topics as well
+as get access to our library of take-home challenges, interview scripts, and
+actual challenge questions received by Viking alumni.
+
+The most important part of your portfolio is your Final Project. This is a full
+end-to-end engineering project that you will build from idea to mockup to
+deployed app with a team of other students (regardless of which program you
+enroll with). This gives you a chance to practice a full engineering workflow
+
+Data Structures and Algorithms
+    ●Basic Data structures
+    ●Hash Tables
+    ●Graphs and Trees
+    ●Algorithmic Problem Solving
+    ●Recursion
+    ●Sorting Algorithms
+    ●Search Algorithms (BFS, DFS)
+Final Projects
+    ●Applied Agile Development
+    ●Working on a Real Engineering Team
+    ●Choosing a Great Final Project
+    ●Planning an Agile Sprint
+    ●Live Demo to the Viking Community
+Getting Hired: Application to Offer
+    ●Locating the Best Jobs
+    ●Networking the Non-Annoying Way
+    ●Getting on the Radar of Companies
+    ●Interviewing Preparation
+    ●Technical Interviewing Practice
+    ●Whiteboarding
+    ●Mock Interviews
+    ●Fielding Job Offers
+    ●Salary Negotiation
+    ●Continuous Learning and Career Advancements
+    ●Open Source Contribution
