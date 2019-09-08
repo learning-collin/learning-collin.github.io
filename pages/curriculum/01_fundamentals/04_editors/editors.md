@@ -2,8 +2,8 @@
 layout: default
 title: Editing Code
 parent: Fundamentals
-nav_order: 5
-permalink: /curriculum/fundamentals/editingcode
+nav_order: 4
+permalink: /curriculum/fundamentals/editors
 ---
 
 # Editing Code
