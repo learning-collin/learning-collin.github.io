@@ -62,14 +62,30 @@ file will take a while to download.
 
 
 #### Option 2: with Etcher
+Etcher is a tool that allows you to flash OS images (.iso files) to SD cards
+and USB drives. It provides protection for corrupted cards and helps prevent
+you from wiping your entire hard drive!
+1) [Download](https://www.balena.io/etcher/) the app for your OS.
+
 See the [Arch wiki](https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_etcher)
 
-#### Option 3: with Rufus (Windows)
-See the [Arch wiki](https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_Rufus)
 
 ### Installation
-Insert the bootable thumb drive
-[bootable things]
+1) If your computer is powered on, power it off. Insert the bootable thumb
+drive and turn your computer on. While it is powering on, press and hold the
+\<Option\> key (Mac) or repeatedly press the \<F9\> key (Windows) to open the
+boot loader.
+
+(The [boot loader](https://en.wikipedia.org/wiki/Booting#Modern_boot_loaders) is
+a small program in the computer's read-only memory (ROM) that loads the
+operating system to the computer's random-access memory (RAM).)
+
+2) The boot loader will display several rows of text, indicating the hardware from which to boot. Use the arrow keys to scroll down to one that includes "USB" or "CD/DVD ROM". 
+
+
+
+
+
 
 Boot up your computer (now with Manjaro!). The first row shows the current
 system time, and the second displays the time zone. Using the arrow keys,
