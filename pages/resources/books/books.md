@@ -14,6 +14,7 @@ permalink: /resources/books
 - Design Patterns (by the Gang of Four)
 - Code Complete
 - Cracking the Coding Interview
+- The Pragmatic Programmer: From Journeyman to Master
 
 ## JavaScript
 - Secrets of the JavaScript Ninja

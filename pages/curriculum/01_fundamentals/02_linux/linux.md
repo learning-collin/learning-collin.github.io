@@ -132,7 +132,7 @@ for example, can take the -a flag, which will show hidden files, or the -l
 flag, which will show ownership, permissions, and the modification date of
 files (more on this later). For example:
 
-```
+```bash
 $ ls -l
 drwxr-xr-x  25 g g  4096 Sep  9 10:52  Desktop
 drwxr-xr-x  11 g g  4096 Jul 18 11:49  Documents
@@ -181,7 +181,7 @@ wanted to save that output somewhere? It turns out, this is pretty easy in
 bash. Let's first try to `cat` the output of a file that doesn't exist (follow
 along in the terminal):
 
-```
+```bash
 $ cat foo.txt
 cat: foo.txt: No such file or directory
 ```
