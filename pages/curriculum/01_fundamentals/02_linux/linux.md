@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Linux
+title: Introduction to Linux
 parent: Fundamentals
 nav_order: 2
 permalink: /curriculum/fundamentals/linux
@@ -18,6 +18,47 @@ permalink: /curriculum/fundamentals/linux
 ---
 
 ## Background
+
+<blockquote>
+<p>
+    I want to tell you <b>a story</b>.
+</p>
+<p>
+    No, not the story of how, in 1991, Linus Torvalds wrote the first version
+    of the Linux kernel. You can read that story in lots of Linux books. Nor am I
+    going to tell you the story of how, some years earlier, Richard Stallman began
+    the GNU Project to create a free Unix- like operating system. That's an
+    important story too, but most other Linux books have that one, as well.
+</p>
+<p>
+    No, I want to tell you <b>the story of how you can take back control of your
+    computer.</b>  When I began working with computers as a college student in the late
+    1970s, there was a revolution going on. The invention of the microprocessor had
+    made it possible for ordinary people like you and me to actually own a
+    computer. It's hard for many people today to imagine what the world was like
+    when only big business and big government ran all the computers. Let's just
+    say, you couldn't get much done.
+</p>
+<p>
+    Today, the world is very different. Computers are everywhere, from tiny wristwatches to
+    giant data centers to everything in between. In addition to ubiquitous computers, we also
+    have a ubiquitous network connecting them together. This has created a wondrous new
+    age of personal empowerment and creative freedom, but over the last couple of decades
+    something else has been happening. <b>A few giant corporations have been imposing their
+    control over most of the world's computers and deciding what you can and cannot do
+    with them.</b> Fortunately, people from all over the world are doing something about it. They
+    are fighting to maintain control of their computers by writing their own software. They
+    are building Linux.
+</p>
+<p>
+    Many people speak of “freedom” with regard to Linux, but I don't think most
+    people know what this freedom really means. <b>Freedom is the power to decide what
+    your computer does, and the only way to have this freedom is to know what your
+    computer is doing.</b> Freedom is a computer that is without secrets, one where
+    everything can be known if you care enough to find out.
+</p>
+</blockquote>
+\- <cite>William E. Shotts, Jr. - The Linux Command Line</cite>
 
 ## Paths
 Open up a terminal window (Alt+Shift+A is the default in Manjaro). 

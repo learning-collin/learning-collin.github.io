@@ -2,6 +2,26 @@
 .text-small.text-grey-dk-000.mb-4 {
     display: none;
 }
+
+img {
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#brand {
+    width: 85%;
+    margin-top: 70px;
+}
+
+.site-header{
+    border-bottom: none !important;
+}
+
+a:hover {
+    color: #7253ed
+}
 ////
 //// Typography
 ////
@@ -65,7 +85,7 @@
 //$body-heading-color: $grey-dk-300;
 //$search-result-preview-color: $grey-dk-000;
 //$nav-child-link-color: $grey-dk-100;
-//$link-color: $purple-000;
+$link-color: $light-blue-000;
 //$btn-primary-color: $purple-100;
 //$base-button-color: #f7f7f7;
 

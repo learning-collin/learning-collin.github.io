@@ -16,6 +16,10 @@ permalink: /resources/websites
 - [Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 - [Become a Programmer Motherfucker](http://programming-motherfucker.com/become.html)
 
+## Linux
+- [Pocket Guide](http://file.allitebooks.com/20160630/Linux%20Pocket%20Guide,%203rd%20Edition.pdf)
+- [Complete Introduction](http://www.linuxzasve.com/preuzimanje/TLCL-09.12.pdf)
+
 ## Bash
 - [Bash Guide / Reference](http://mywiki.wooledge.org/BashGuide)
 

@@ -147,3 +147,19 @@
     position: relative;
   }
 }
+
+blockquote {
+    padding-left: 10px;
+    color: #474747;
+    border: {
+        style: solid;
+        width: 0px;
+        left-width: thick;
+        color: #12c590;
+        color: #7253ed;
+        color: #5381ed;
+    }
+    font: {
+        size: 11pt;
+    }
+}

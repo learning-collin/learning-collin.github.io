@@ -291,3 +291,5 @@ hard drive's main partition (for us it was `/dev/sda1`) as bootable.
 There is a wealth of information about customization, configuration, and
 troubleshooting at the [Manjaro
 wiki](https://wiki.manjaro.org/index.php?title=Main_Page#Getting_Started).
+
+[Next Section: Introduction to Linux](/curriculum/fundamentals/linux){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 } 
