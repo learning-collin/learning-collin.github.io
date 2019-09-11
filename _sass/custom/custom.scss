@@ -13,6 +13,11 @@ img {
 #brand {
     width: 85%;
     margin-top: 70px;
+
+    @media only screen and (max-width: 800px) {
+        margin-top: 0px !important;
+    }
+
 }
 
 .site-header{
@@ -22,6 +27,15 @@ img {
 a:hover {
     color: #7253ed
 }
+
+a.btn:hover{
+    color: #f8f8f8
+}
+
+ul.navigation-list-child-list li.navigation-list-item a.navigation-list-link:hover {
+    color: #7253ed
+}
+
 ////
 //// Typography
 ////

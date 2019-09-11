@@ -6,7 +6,7 @@ nav_order: 2
 permalink: /curriculum/fundamentals/linux
 ---
 
-# Linux
+# Introduction to Linux
 {: .no_toc }
 
 ## Table of contents
@@ -18,6 +18,11 @@ permalink: /curriculum/fundamentals/linux
 ---
 
 ## Background
+
+I can't overstate the importance of Linux. Without it, the modern internet
+would not exist. Even apart from that, it's really fun once you get the hang of
+it. Here's an excerpt from William Shotts's book that has always resonated
+with me:
 
 <blockquote>
 <p>
@@ -57,8 +62,19 @@ permalink: /curriculum/fundamentals/linux
     computer is doing.</b> Freedom is a computer that is without secrets, one where
     everything can be known if you care enough to find out.
 </p>
+- <cite>William E. Shotts, Jr. - The Linux Command Line</cite>
 </blockquote>
-\- <cite>William E. Shotts, Jr. - The Linux Command Line</cite>
+
+The Linux ecosystem consists of an incredibly wide range of tools. There are a
+lot of resources by far more impressive teachers than us, so the goal of this
+section is to pique your curiousity enough that you are inspired to do your own
+investigation. The best introduction to linux that I have seen is [available
+from
+Amazon](https://www.amazon.com/gp/product/1491927577/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1#reader_1491927577)
+for $13.40. Buy it. If you learn everything in that book you'll be making
+$60-$100K before long. But, if you really can't afford it then [Download the
+PDF](/assets/books/Linux Pocket Guide, 3rd Edition.pdf) for now. But seriously,
+buy the book.
 
 ## Paths
 Open up a terminal window (Alt+Shift+A is the default in Manjaro). 
