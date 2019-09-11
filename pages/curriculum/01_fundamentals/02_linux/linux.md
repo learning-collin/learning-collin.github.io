@@ -61,7 +61,7 @@ You can also change which directory you are in with the `cd` ("choose
 directory") command. `cd` takes one argument: the directory you want to move
 to. Try it:
 
-```
+```bash
 $ cd /home
 $ pwd
 /home
@@ -72,7 +72,7 @@ well. Try typing "cd /" into the command line and, before hitting \<Enter\>,
 pres \<Tab\> twice. All the directories inside the root directory should show
 up.
 
-```
+```bash
 $ cd /<Tab><Tab>
 bin/        dev/        home/       lib64/      mnt/        proc/       run/
 srv/        sys/        usr/        boot/       etc/        lib/
@@ -81,14 +81,14 @@ lost+found/ opt/        root/       sbin/       swapfile    tmp/        var/
 
 Continue by typing the letter "h" and pressing \<Tab\> again:
 
-```
+```bash
 $ cd/h<Tab>
 ```
 
 Notice that, since the `/home` directory is the only folder starting with "h",
 the terminal autocompletes the command:
 
-```
+```bash
 $ cd/home/
 ```
 
@@ -122,7 +122,7 @@ will be able to use the shell effectively and continue learning on your own.
 Another important command is ls, or "list". This will display the files in
 your current directory. Try it now:
 
-```
+```bash
 $ ls
 Desktop  Downloads  Pictures   Documents
 ```
@@ -150,7 +150,7 @@ again.) These files are often used to store configuration
 data or scripts. We can use `ls` to show only the files we're interested in;
 let's see what the ".bash" files are all about.
 
-```
+```bash
 $ ls -a .bash*
 .bash_aliases  .bash_history  .bash_profile  .bashrc
 ```
