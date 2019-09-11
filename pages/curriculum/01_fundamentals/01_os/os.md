@@ -19,11 +19,24 @@ permalink: /curriculum/fundamentals/os
 
 # Operating Systems
 
+An operating system is system software that manages computer hardware and
+software resources and provides common services for computer programs. You are
+probably familiar with several:
+
+- Microsoft Windows
+- MacOS
+- iOS
+- Linux
+
+Almost every website and application depends upon linux, so we will begin our
+journey towards software development by installing and configuring a linux
+distribution.
+
 # Manjaro Linux
 
 ## Background 
 
-[Why should you learn to use linux?]
+<!--[Why should you learn to use linux?]-->
 
 A linux distribution or _'distro'_ is an operating system based on the [linux
 kernel](https://en.wikipedia.org/wiki/Linux\_kernel). Linux distros comprise a
@@ -35,7 +48,7 @@ single large system update, releases are implemented using small, frequent
 updates, only updating a piece of software that has been changed since the last
 update. Manjaro follows arch development with an additional layer of testing:
 
-![](../../../../assets/images/manjaro.svg)
+![](../../../../assets/images/fundamentals/os/manjaro.svg)
 
 We will use Manjaro because we are Arch fans, but Manjaro's \~6-week release
 delay behind Arch makes it more stable and secure. Plus, it is easy to install.
@@ -93,14 +106,14 @@ computer.
 ```bash
 sudo umount /dev/<?><?>
 ```
-Where you will replace <?><?> with the mounted partiton. For me this will be sdb1,
+Where you will replace \<?\>\<?\> with the mounted partiton. For me this will be sdb1,
 but for you it could be different.
 
 5. Finally, run this command to wipe the entire USB and replace it with the contents of the .iso
 ```bash
 sudo dd bs=4M if=path/to/input.iso of=/dev/<?> status=progress
 ```
-Here, you will replace <?> with the entire device. So for me this would be sdb.
+Here, you will replace \<?\> with the entire device. So for me this would be sdb.
 Do not target a single partition on the device (ie sdb1) or it will not work.
 
 
@@ -125,14 +138,14 @@ for more information about both of these methods
 
 1. Once you have successfully convinced your computer to boot off of the USB,
    Manjaro will load to ROM and a "Welcome to Manjaro" screen will appear that looks like this: 
-![](../../../../assets/images/manjaro_install_grub.png)
+![](../../../../assets/images/fundamentals/os/manjaro_install_grub.png)
 Use the arrow keys to scroll to the "Boot: Manjaro.x86_64 kde" row and press
 \<Enter\>.  While Manjaro boots, it will flash a log of all the processing being
 started on your screen.
 
 1. You are now on Manjaro! A "Welcome to Manjaro!" window will open
 automatically. 
-![](../../../../assets/images/manjaro_install_welcome.png)
+![](../../../../assets/images/fundamentals/os/manjaro_install_welcome.png)
 To begin installing it on your computer (remember, it has been
 loaded to ROM from the USB, not from your computer's hard drive), click the
 "Launch installer" button.
@@ -144,7 +157,7 @@ bottom-right of the status bar and enter your Wifi information.
 
 1. Click "Next", and in the next two dialogs select your time zone information
 and preferred keyboard layout.
-![](../../../../assets/images/manjaro_install_installer_region_select-1.png)
+![](../../../../assets/images/fundamentals/os/manjaro_install_installer_region_select-1.png)
 
 1. On the next screen you will be presented with four options:
     - **Install alongside:** this will keep your current OS, but install
@@ -180,12 +193,98 @@ review the changes, and install!
 1. Once the installation finishes, turn off your computer, unplug the USB and
     turn it back on. If all went well you'll be greeted with the Manjaro login
     screen:
-![](../../../../assets/images/manjaro_install_welcome_screen.png)
+![](../../../../assets/images/fundamentals/os/manjaro_install_welcome_screen.png)
 
 Congrats, you just installed Linux!
 
 ## Configuration
 
+Part of the reason that we selected Manjaro is that it has a beautiful default
+configuration. However, there are still lots of things that may be customized.
+We will walk through a few configuration changes together. Once you finish
+making these changes, we would urge you to take your time stepping through the
+System Settings menu to see what else may be changed.
+
+### Increase touchpad pointer speed (highly recommended)
+
+This will prevent you from needing to lift your finger up in order to move your
+mouse across the screen.
+
+1. Open up system settings by pressing `alt+space`, typing "system settings" and hitting enter
+1. Scroll down to hardware and select "Input Devices":
+![](../../../../assets/images/fundamentals/os/inputdevices.png)
+1. Once inside of Input Devices, select "Touchpad" --> "Pointer Motion" and slide the "Acceleration" bar to the left:
+![](../../../../assets/images/fundamentals/os/touchpadacceleration.png)
+Don't forget to click "Apply"!
+
+### Remap Caps Lock to Control (highly recommended)
+
+Caps lock is very rarely used, but control is used quite frequently so it makes
+sense to have one that is easy to reach. If you later find yourself wishing you
+had Caps Lock, look into using `setxkbmap` to interpret both shift keys as Caps
+Lock.
+
+1. Open up system settings by pressing `alt+space`, typing "system settings" and hitting enter
+1. Scroll down to hardware and select Input Devices:
+![](../../../../assets/images/fundamentals/os/inputdevices.png)
+1. Once inside of Input Devices, select Keyboard --> Advanced:
+![](../../../../assets/images/fundamentals/os/keyboard.png)
+1. Click on "Configure keyboard options" to enable making changes. Then select "Caps Lock Behavior" as illustrated:
+![](../../../../assets/images/fundamentals/os/capslockisctrl.png)
+Don't forget to apply your changes!
+
+### Change Shortcut to Close a Window (recommended)
+
+I find it tedious to push `alt+f4` when I could just push `alt+q` to close a
+window.
+
+1. Open up system settings by pressing `alt+space`, typing "system settings" and hitting enter
+1. Scroll down to Workspace and select Shortcuts --> Global Shortcuts --> KWin:
+![](../../../../assets/images/fundamentals/os/closewindow.png)
+1. Click on the column that says `alt+f4` in order to set a custom shortcut:
+![](../../../../assets/images/fundamentals/os/settingclosewindow.png)
+1. After clicking on the button, hold down the keys that you would like to use as a shortcut:
+![](../../../../assets/images/fundamentals/os/aftersetclosewindow.png)
+If everything went well, you should see your new shortcut listed in the column. Don't forget to hit Apply!
+
+### Change Theme (optional)
+
+If you frequently use your computer at night, you may find the dark theme a bit
+easier on your eyes.
+
+1. Open up system settings by pressing `alt+space`, typing "system settings" and hitting enter
+1. Scroll down to Appearance and select Workspace Theme --> Look and Feel and select the dark theme:
+![](../../../../assets/images/fundamentals/os/darktheme.png)
+Click Apply to see your changes.
+
+### Other Settings (optional)
+
+It is definitely worth taking some time to play around with other settings that
+are customizable. This is what makes using linux fun! You get to build your
+environment from the ground up and then spend every day playing in it.
+
+1. Learn some of the shortcuts -- try opening a file browser with `windows+1` -- what might `windows+2` do?
+1. Customize your power settings depending upon your power source:
+![](../../../../assets/images/fundamentals/os/powersettings.png)
+1. Reverse the direction of two-finger scroll or switch to edge scrolling:
+![](../../../../assets/images/fundamentals/os/reversescroll.png)
+
+The sky is the limit! Don't disregard even the smallest annoyance, because
+**everything** can be customized.
+
+
+## Troubleshooting
+
+Even if you follow this guide very closely, you may run into some issues. This
+section will contain post-mortem's on previous issues encountered, but in order
+to solve your issues, the best thing that you can do is to google the error
+message ie `manjaro operating system not found` and peruse the forums.
+
+### Operating System Not Found
+
+We encountered this error after installing manjaro while in legacy boot mode.
+The fix was to boot off of a thumb drive and use `cfdisk` mark the internal
+hard drive's main partition (for us it was `/dev/sda1`) as bootable.
 
 ## Wrap-up
 
