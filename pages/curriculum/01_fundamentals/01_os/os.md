@@ -72,7 +72,7 @@ you from wiping your entire hard drive!
    select your thumb drive and .iso file.
 4. Click "Flash" and wait for it to finish.
 
-#### Option 2: with `dd`
+#### Option 2: with dd
 This method performs a low level (ie binary) copy of the .iso file onto the
 USB. In general, you want to be very careful when using `dd` because one letter
 being incorrect could cause you entire hard drive to get erased. We do not
