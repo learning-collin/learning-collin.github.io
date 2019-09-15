@@ -433,6 +433,8 @@ The linux command line can seem complex and scary at first. Trust me that it
 will quickly seem intuitive and simple; once you grasp some basic concepts, you
 will be able to use the shell effectively and continue learning on your own. 
 
+[Next Section: Editing Code](/curriculum/fundamentals/editors){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+
 <!--## Bash Quickstart-->
 <!--Bash is a Unix command language, used as the default login shell-->
 <!--(or command-line interpreter) for most Linux distros. Bash processes commands-->

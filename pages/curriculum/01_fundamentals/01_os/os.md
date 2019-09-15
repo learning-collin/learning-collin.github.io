@@ -195,6 +195,10 @@ review the changes, and install!
     screen:
 ![](../../../../assets/images/fundamentals/os/manjaro_install_welcome_screen.png)
 
+1. Before you proceed, update your machine. Do this by opening a terminal,
+   typing `sudo pacman -Syu` and hitting enter. Let it do everything that it
+   asks you about. 
+
 Congrats, you just installed Linux!
 
 ## Configuration

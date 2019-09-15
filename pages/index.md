@@ -11,11 +11,11 @@ permalink: /
 
 Because learning to code in a classroom setting should not break the bank.
 Here, you'll only pay after job placement. Plus, the curriculum is free
-forever.  
+forever.
 {: .fs-6 .fw-300 }
 
-[Apply](mailto:pribylsnbits.com){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-[View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 }
+[Apply](mailto:pribylsnbits.com){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub](https://github.com/mtdev/mtdev.github.io){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -34,9 +34,11 @@ forever.
 ![possible development tracks](../assets/images/paths.png)
 
 ### Front End
+
 ![possible development tracks - frontend](../assets/images/frontend.png)
 
 ### Back End
+
 ![possible development tracks - backend](../assets/images/backend.png)
 
 ## Get Started!
