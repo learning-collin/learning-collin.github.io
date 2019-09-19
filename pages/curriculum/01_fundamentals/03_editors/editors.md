@@ -102,7 +102,7 @@ should have:
 
 Optionally, you could set up:
 
-- A Vim plugin to make VSCode more powerful
+- A [Vim plugin](https://github.com/VSCodeVim/Vim) to make VSCode more powerful
 - Snippets to save you some typing
 
 #### Exercise: JavaScript 'Hello World' in VSCode

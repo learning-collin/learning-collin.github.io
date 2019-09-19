@@ -129,7 +129,7 @@ for more information about both of these methods
 
 1. Look up the method for booting from a USB that corresponds to your computer.
    The method you use will depend upon your hardware manufacturer as well as
-   your software, but google is your friend. 
+   your software, but google is your friend.
 1. If your computer is powered on, power it off. 
 
 1. Insert the bootable thumb drive
