@@ -60,7 +60,6 @@ colleagues, and strangers. I am "gegnew" and Johnny is "jpribyl".
 1. Upload a profile photo. It doesn't have to be of you, but this is a tryhard
    2k20 move that I recommend for no real reason.
 1. Nice job.
-
 {: .rounded}
 
 ## Set Up a Repository
@@ -283,7 +282,6 @@ repo.
    by Github. Anything in this file will show up on the main page of your
    repository. Thus, this is a good place for how-to instructions and general
    documentation. 
-
 {:.rounded}
 
 #### Exercise: More Practice
@@ -291,7 +289,6 @@ repo.
 Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work
 through more lessons. Work through all of "Ramping Up" and "Moving Work
 Around."
-
 {:.rounded}
 
 #### Exercise: Git Superskills
@@ -440,7 +437,6 @@ rewording of commit messages, editing of commits, and other functions.
 
 You should see a message: `Successfully rebased and updated
 refs/heads/feature.` Nice job!
-
 {:.rounded}
 
 
@@ -449,7 +445,6 @@ refs/heads/feature.` Nice job!
 Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work
 through "A Mixed Bag" and "Advanced Topics". Feel free to come back to this any
 time you need to practice your `git` skills.
-
 {:.rounded}
 
 
