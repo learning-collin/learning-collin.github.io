@@ -429,46 +429,46 @@ For even more excitement, read [this
 article](https://nuclearsquid.com/writings/git-add/) about `git add --patch`. A
 workflow I use often is this:
 
-    1. Work on a new feature branch for a while, making commits as I go.
+1. Work on a new feature branch for a while, making commits as I go.
 
-    1. Find that I've really been working on a few conceptually different
-       things.
+1. Find that I've really been working on a few conceptually different
+   things.
 
-    1. Soft reset all my work back to master (i.e. remove all commits, but keep
-       all the changes I've made and files I've added).
-    ```
-    $ git reset master
-    ```
+1. Soft reset all my work back to master (i.e. remove all commits, but keep
+   all the changes I've made and files I've added).
+```
+$ git reset master
+```
 
-    1. Add all changes from "concept 1" and commit it:
-    ```
-    $ git add -p
-    ```
-    Work through the dialog, selecting all the hunks that make up a particular
-    feature, then commit it:
-    ```
-    $ git commit -m "added feature 1"
-    ```
+1. Add all changes from "concept 1" and commit it:
+```
+$ git add -p
+```
+Work through the dialog, selecting all the hunks that make up a particular
+feature, then commit it:
+```
+$ git commit -m "added feature 1"
+```
 
-    1. Do the same for another feature or concept:
-    ```
-    $ git add -p
-    $ git commit -m "added feature 2"
-    ```
+1. Do the same for another feature or concept:
+```
+$ git add -p
+$ git commit -m "added feature 2"
+```
 
-    1. Add any stray hunks with `git add .` and commit with a throwaway message, like `git commit -m 'foo'`.
+1. Add any stray hunks with `git add .` and commit with a throwaway message, like `git commit -m 'foo'`.
 
-    1. Rebase interactively onto master, squashing commits into a single large commit,
-    ```
-    $ git rebase -i master
-    ```
-    where my interactive rebase commands look like,
-    ```
-    reword 7494c9f added feature 1
-    squash af5e1fc added feature 2
-    fixup e6d3c80 foo
-    ```
-    and rewording my commit message to something like "added feature 1 and 2"
+1. Rebase interactively onto master, squashing commits into a single large commit,
+```
+$ git rebase -i master
+```
+where my interactive rebase commands look like,
+```
+reword 7494c9f added feature 1
+squash af5e1fc added feature 2
+fixup e6d3c80 foo
+```
+and rewording my commit message to something like "added feature 1 and 2"
 
 Don't worry too much if this doesn't make sense now; you'll get lots of
 practice using git and Github as we move forward. Come back to this section
