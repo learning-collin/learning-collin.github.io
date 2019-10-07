@@ -275,6 +275,8 @@ repo.
 {: .rounded}
 ---
 
+## Further Learning
+
 #### Exercise: More Practice
 
 Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work
