@@ -61,6 +61,7 @@ colleagues, and strangers. I am "gegnew" and Johnny is "jpribyl".
    2k20 move that I recommend for no real reason.
 1. Nice job.
 {: .rounded}
+---
 
 ## Set Up a Repository
 
@@ -242,75 +243,61 @@ repo.
 #### Exercise: Clone an Existing Repository
 
 1. Navigate to [](https://github.com/mtdev/git-practice).
-
 1. Find the "Fork" button on the top-right of the page. Click it, and take note
    of the new URL of the page you are on. This is now a copy of the
    "mtdev/git-practice" on your Github:
    https://github.com/[username]/git-practice
-
 1. Copy the address from the *Clone or Download* button and use `git clone` to
    clone the repository:
-
     ![](../../../../assets/images/fundamentals/git/clone_or_download.png)
 
     ```
     $ git clone git@github.com:mtdev/git-practice.git
     ```
-
     `cd` into "git-practice" and take a look around. There's not much here: just a
     README and a single text file, "firstpost.txt".
-
 1. Add your username to a new line in "firstpost.txt", then save and commit. In
    the commit message, write "<your username> initial commit".
-
 1. Make a new branch called "<your username>/newBranch". Check it out, then
    make a file with your GitHub username (i.e. "gegnew.txt"). In that file,
    write today's date and save it.
-
 1. Check out master, add a new file "foo.txt", save, add, and commit.
-
 1. Check out master and merge it into newBranch.
-
 1. Push your changes to GitHub. Remember, you have to set the upstream branch the first time!
-
 1. Go to your repostory at https://github.com/[username]/git-practice. Note
    that all the files in the "git-practice" directory are on this page. Click
    on one and look around.
-
 1. Go back to the base of the directory and click on `README.md`. This file is
    automatically rendered in [markdown](https://en.wikipedia.org/wiki/Markdown)
    by Github. Anything in this file will show up on the main page of your
    repository. Thus, this is a good place for how-to instructions and general
    documentation. 
-{:.rounded}
+{: .rounded}
+---
 
 #### Exercise: More Practice
 
 Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work
 through more lessons. Work through all of "Ramping Up" and "Moving Work
 Around."
-{:.rounded}
+{: .rounded}
+---
 
 #### Exercise: Git Superskills
 
 This exercise will streamline your git skills and add some new tools to your
 toolbelt. Note that there may be a couple different ways to complete a command;
 take note of different options and try whichever one makes sense to you.
-
 1. Go back to your `git-practice` directory.
-
 1. Some git commands are too verbose for easy use. Try this one out:
     ```
     $ git log --oneline --all --graph
     ```
-
 1. This command shows a visual tree of all your branches, with the
    corresponding hash identifier of each commit. This is a really useful
    command! It might even replace a git GUI for you. But it's really hard to
    type! We will make it easier by setting an alias in your `.bashrc`
-
 1. Edit your `.bashrc` with the command `vim ~/.bashrc`.
-
 1. Add a new line to assign an alias. It can be whatever you want, but I set mine to `gl`:
    ```
    $ alias gl='git log --oneline --all --graph'
@@ -323,7 +310,6 @@ take note of different options and try whichever one makes sense to you.
    ```
    (Note that in bash, the period `.` notation is an alias for thet `source`
    command.)
-
    Nice job! You can do this for any bash command or CLI application. (You can
    also use git itself to alias commands; running `git config --global
    alias.[alias] "[command]"` and replacing "[alias]" and "[command]" will save
@@ -331,11 +317,9 @@ take note of different options and try whichever one makes sense to you.
    "log --oneline --all --graph"` will do the same thing as the alias we just
    made. I like writing aliases in my `.bashrc` because it makes sense to keep
    __all__ my aliases in one place.)
-
 Next, we're going to introduce the "interactive rebase". This method allows
 for more complicated rebases, including "squashing" (combining) of commits,
 rewording of commit messages, editing of commits, and other functions.
-
 1. Imagine that we want to a new feature. The first feature requires
    two files: "file1.txt", "file2.txt", and "file3.txt". Suppose that these are
    all complicated files and you need to spend several days working on each. It
@@ -350,14 +334,12 @@ rewording of commit messages, editing of commits, and other functions.
    ```
    $ git checkout -b feature
    ```
-
 1. Make a new file called "file1.txt". Add it to staging and commit it with the
    message "added file1.txt".
    ```
    $ git add .
    $ git commit -m "added file1.txt"
    ```
-
 1. Make another file called "file2.txt", add it to staging, and commit it. This
    time, use the `-a` and the `-m` flag to do the same thing as above in a
    single line:
@@ -365,10 +347,8 @@ rewording of commit messages, editing of commits, and other functions.
    $ git commit -am "added file2.txt"
    ```
    Read this as "git commit all with message ..."
-
 1. Type `gl` to see what your history looks like. Then make a third file called
    "file3.txt", and commit it with a deliberately incorrect message: "added file2.txt"
-
 1. Enter `gl` again to look at your commit history. You should see that your
    master branch, `origin/master`, is three commits behind the `HEAD`, which is
    at `feature`. Imagine that we have now successfully implemented the new
@@ -411,7 +391,6 @@ rewording of commit messages, editing of commits, and other functions.
    ```
 1. Read the documentation provided carefully; it tells you everything you need
    to know.
-
 1. We want to combine these three commits into a single commit, and reword it
    to reflect the changes. Git has dropped you into vim, so use vim to edit the
    commit messages like so: (Practice using `ciw` in vim to replace a word.)
@@ -424,28 +403,26 @@ rewording of commit messages, editing of commits, and other functions.
    commit into the first commit, and squash the third commit into the first
    commit without saving its (incorrect) commit message. To continue with the
    rebase, save and quit vim with `:wq`.
-
 1. git will drop you immediately into another vim instance, with the following text:
     ```
     added file1.txt
-
     # Please enter the commit message for your changes. Lines starting
     # with '#' will be ignored, and an empty message aborts the commit.
     ```
     Reword this commit by replaing the first line with "added new feature".
     Save and quit.
-
 You should see a message: `Successfully rebased and updated
 refs/heads/feature.` Nice job!
-{:.rounded}
-
+{: .rounded}
+---
 
 #### Exercise: Advanced Topics
 
 Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work
 through "A Mixed Bag" and "Advanced Topics". Feel free to come back to this any
 time you need to practice your `git` skills.
-{:.rounded}
+{: .rounded}
+---
 
 
 For even more excitement, read [this
